@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(WhatsApp\ Image\ 2024-08-07\ at\ 14.27.29.jpeg);
+    background-size: cover;
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(0, 0, 0, 0.914);
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #df0e62;
+    text-decoration: underline;
+}
+
+#carrinho{
+    margin-left: 5%;
+}
+
+#carrinho a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: "Inspiration", cursive;
+    font-weight: 100;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 80px;
+}

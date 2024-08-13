@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A519D;
+}
+
+header {
+    padding: 50px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(0, 0, 0, 0.914);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #df0e62;
+    text-decoration: underline;
+}
+
+#carrinho {
+    margin-left: 5%;
+}
+
+#carrinho a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+.casa{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+
+.sushii{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    margin-top: 70px;
+}
+.hot{
+    grid-column-start: 4;
+}
+.hot>img{
+    height: 150px;
+    width: 250px;
+   
+}
+.skin{
+    grid-column-start: 6;
+}
+.skin>img{
+    height: 150px;
+    width: 250px;
+    
+}
+
+.temaki{
+    grid-column-start: 8;
+}
+.temaki>img{
+    height: 150px;
+    width: 250px;
+    
+}
+
+#legenda{
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr 4fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    margin-top: 90px;
+}
+
+.legenda1{
+    grid-column-start: 2;
+    margin-left: 175px;
+    font-family: "Inter", sans-serif;
+}
+.legenda2{
+    grid-column-start: 4;
+    margin-left: 110px;
+    font-family: "Inter", sans-serif;
+}
+
+.legenda3{
+    grid-column-start: 6;
+    margin-left: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.botao{
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    border: none;
+    background-color: black;
+    color: white;
+}

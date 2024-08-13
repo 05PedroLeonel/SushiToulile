@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 50px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(0, 0, 0, 0.914);
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: #df0e62;
+    text-decoration: underline;
+}
+
+#carrinho{
+    margin-left: 5%;
+}
+
+#carrinho a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+section{
+    display: flex;
+}
+
+#form{
+    background-image: url(WhatsApp\ Image\ 2024-08-07\ at\ 20.44.02.jpeg);
+    width: 85%;
+    height: 610px;
+}
+
+#form {
+    padding: 50px;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 60%;
+    padding: 30px;
+    background-color: #3A519D;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+#form form a{
+    margin-top: 20px;
+    color: black;
+    font-family: "Inter", sans-serif; 
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#form form a:hover{
+    color:#ffffff;
+}
+
+label{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif; 
+}
+
+input{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif; 
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
+
+#cadastro{
+    background-image: url(WhatsApp\ Image\ 2024-08-07\ at\ 20.47.36.jpeg);
+    width: 30%;
+    background-size: cover;
+    height: 610px;
+    padding: 50px;
+    text-align: center;
+    font-family: "Inter", sans-serif; 
+}
+
+#cadastro h1{
+    font-size: 32px;
+    margin-top: 50px;
+}
+
+#cadastro form{
+    margin-top: 50%;
+    width: 200px;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#cadastro form input{
+    padding: 10px;
+    width: 500px;
+}
+
+.input-email{
+    display: flex;
+}
+
+.input-email button{
+    margin-left: 30px;
+}

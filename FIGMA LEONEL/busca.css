@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3A519D;
+}
+
+header {
+    padding: 50px;
+    display: flex;
+    font-family: "Inter", sans-serif;
+    background-color: rgba(0, 0, 0, 0.914);
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    color: #df0e62;
+    text-decoration: underline;
+}
+
+#carrinho {
+    margin-left: 5%;
+}
+
+#carrinho a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.busca {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 100%;
+    height: 10vh;
+    background-color: red;
+}
+
+.buscas {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+.itens {
+    grid-column-start: 8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: red;
+    font-family: "Inter", sans-serif;
+}
+
+.sushizao {
+    margin-top: 60px;
+}
+
+.imagensS {
+    height: 400px;
+    width: 100%;
+    display: flex;
+
+}
+
+.imagensS>img {
+    height: 400px;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.combos {
+    margin-left: 8%;
+    margin-top: 50px;
+}
+
+.cmb {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.p60 {
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+    color: #828282;
+}
+
+.valor{
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+}
+.Promoção{
+    margin-top: 8px;
+    font-family: "Inter", sans-serif;
+    color: #828282;
+}
+
+.add{
+    width: 150px;
+}
